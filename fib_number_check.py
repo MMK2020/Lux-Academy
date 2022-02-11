@@ -14,7 +14,7 @@ def checkPerfectSquare(x):
 
 def checkFibonacciNumber(n):
     
-    return checkPerfectSquare(5*n*n + 4) or checkPerfectSquare(5*n*n - 4) # Returns True if number if Fibonacci else False
+    return checkPerfectSquare(5*n*n + 4) or checkPerfectSquare(5*n*n - 4) # Returns True if number is Fibonacci else False
 
 n = int(input('Enter number to check if it is a Fibonacci number: '))
 
