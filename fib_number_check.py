@@ -10,11 +10,11 @@ def checkPerfectSquare(x):
     
     s = int(math.sqrt(x))
     
-    return s*s == x #Returns True if x is a perfect square
+    return s**2 == x #Returns True if x is a perfect square
 
 def checkFibonacciNumber(n):
     
-    return checkPerfectSquare(5*n*n + 4) or checkPerfectSquare(5*n*n - 4) # Returns True if number is Fibonacci else False
+    return checkPerfectSquare(5*n**2 + 4) or checkPerfectSquare(5*n**2 - 4) # Returns True if number is Fibonacci else False
 
 n = int(input('Enter number to check if it is a Fibonacci number: '))
 
