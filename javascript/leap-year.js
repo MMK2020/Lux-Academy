@@ -1,3 +1,7 @@
+/***
+Program to check if a given year is leap or not
+***/
+
 function checkLeap(year){
  this.year = year;
 if(year<1){
