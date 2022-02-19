@@ -1,3 +1,7 @@
+"""
+This program checks if a given year is leap or not
+"""
+
 def checkLeap(year):
     
     if(year<1):
