@@ -11,6 +11,6 @@ Steps
 -------------------------------------------
 1. Create a folder called js-youtube-downloader
 2. Run npm init -y to initialise a node in the folder
-3. Install the pre-requisite modules needed with npm install ytdl-core express ejs
+3. Install the pre-requisite modules needed with; npm install ytdl-core express ejs
 4. Create a file called index.js in the folder
 5. Create a folder called views and create two files download.ejs and index.ejs
