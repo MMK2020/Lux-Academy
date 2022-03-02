@@ -1,0 +1,16 @@
+Source & Credit: https://medium.com/geekculture/create-youtube-video-downloader-with-nodejs-986a207b943e
+
+Project Requirements
+------------------------------------------
+-NodeJS and NPM
+-Express (For creating Web Server)
+-ytdl-core (npm module to get info of youtube video)
+-ejs (templating engine)
+
+Steps
+-------------------------------------------
+1. Create a folder called js-youtube-downloader
+2. Run npm init -y to initialise a node in the folder
+3. Install the pre-requisite modules needed with npm install ytdl-core express ejs
+4. Create a file called index.js in the folder
+5. Create a folder called views and create two files download.ejs and index.ejs
